@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "neonaqc-resched_jd114"
+name = "neonaqc-long_context_positional_extrapolation_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出训练资源调度工程师·长上下文的位置编码外推的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://neonaqc.github.io"
-Repository = "https://github.com/neonaqc/resched_jd114"
-Issues = "https://github.com/neonaqc/resched_jd114/issues"
+Repository = "https://github.com/neonaqc/long_context_positional_extrapolation_coverage_map"
+Issues = "https://github.com/neonaqc/long_context_positional_extrapolation_coverage_map/issues"
 
 [project.scripts]
-resched_jd114 = "resched_jd114:main"
+long_context_positional_extrapolation_coverage_map = "long_context_positional_extrapolation_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["resched_jd114"]
+py-modules = ["long_context_positional_extrapolation_coverage_map"]
